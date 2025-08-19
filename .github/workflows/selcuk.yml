@@ -42,7 +42,7 @@ jobs:
       # Adım 4: M3U dosyasını oluşturmak için Python betiğini çalıştırır
       - name: Betiği Çalıştır ve M3U Oluştur
         # Betiğinizin adının main.py olduğunu varsayıyoruz
-        run: python main.py
+        run: python selcuk.py
 
       # Adım 5: Oluşturulan M3U dosyasını repoya commit'ler ve push'lar
       - name: Değişiklikleri Repoya Yükle
